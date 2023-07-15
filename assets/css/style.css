@@ -46,3 +46,39 @@
 .carousel-caption.d-none.d-md-block {
     text-transform: capitalize;
 }
+
+.paralax{
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7) ), url("../images/lights.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paralax.home{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7) ), url("../images/lights.jpg"); 
+}
+
+.paralax.video{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7) ), url("../images/media.jpg"); 
+}
+.video i{
+    cursor: pointer;
+}
+
+.home-gallary a{
+    height: 350px;
+    width: 100%;
+    display: inline-block;
+}
+
+.home-gallary img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
